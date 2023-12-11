@@ -150,11 +150,11 @@ def outer(step):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    ot = outer(3)
-    for i in range(5) :
-        ot()       #执行5次，值分别是4 7 10 13 16
+#     ot = outer(3)
+#     for i in range(5) :
+#         ot()       #执行5次，值分别是4 7 10 13 16
      # print(sum_num(4))
-     # print_hi(Name)
+     print_hi(Name)
      # printType()
      # sort(num1, num2)
      # iftest(Score)
