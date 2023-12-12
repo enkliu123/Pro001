@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-        JobName = "自动化集成测试项目"
+        JobName = "Jenkins automation CI"
     }
     parameters{
         string(name: 'Name',defaultValue: 'Helen', description: 'beautiful girl!')
@@ -14,7 +14,7 @@ pipeline{
         }
         stage("Custom Parameters"){
             steps{
-                echo "${parameters.Name} ,My beautiful daughter!"
+                echo "${params.Name} ,My beautiful daughter!"
             }
         }
     }
