@@ -17,6 +17,7 @@ pipeline{
                 echo "${parameters.Name} ,My beautiful daughter!"
             }
         }
+    }
     post {
         always {
     // One or more steps need to be included within each condition's block.
